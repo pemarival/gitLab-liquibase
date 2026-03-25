@@ -9,3 +9,8 @@ databaseChangeLog:
             relativeToChangelogFile: true
             splitStatements: false
             stripComments: false
+      rollback:
+        - sqlFile:
+            path: ../06_rollback/trg_type_document.sql
+            relativeToChangelogFile: true
+            splitStatements: false      
