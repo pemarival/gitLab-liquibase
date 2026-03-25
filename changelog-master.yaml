@@ -14,3 +14,8 @@ databaseChangeLog:
 
   - include:
       file: 05_function/changelog.yaml
+
+  - include:
+     file: 07_datos/changelog.yaml
+     relativeToChangelogFile: true     
+    
