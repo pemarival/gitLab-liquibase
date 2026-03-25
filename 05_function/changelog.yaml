@@ -9,3 +9,7 @@ databaseChangeLog:
             relativeToChangelogFile: true
             splitStatements: false
             stripComments: falseyup
+      rollback:
+        - sqlFile:
+            path: ../06_rollback/fn_count_type_document.sql
+            relativeToChangelogFile: true       
